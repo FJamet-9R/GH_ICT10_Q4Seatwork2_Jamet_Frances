@@ -1,0 +1,53 @@
+body{
+    background-image: url(bg.png);
+    color: lch(24.04% 57.77 37.59);
+    animation: fadeInAnimation ease 3s; 
+	            animation-iteration-count: 1;
+	            animation-fill-mode: forwards;
+	    } 
+	    @keyframes fadeInAnimation{
+	            0% {
+	                opacity: 0;
+	            }
+
+	            100% {
+	                opacity: 1;
+                }
+            }
+
+
+#design{
+    text-align: center;
+    background-color:#ffffff;
+     border:  medium solid #4e0a0a;
+     border-radius: 20px;
+     width: 1000px;
+    align-items: center;
+    padding: 50px;
+    margin: 150px;
+    margin-left: 250px;
+    
+}
+
+#output{
+    text-align: left;
+    border:  thin dashed #4e0a0a;
+     border-radius: 20px;
+     margin: 20px;
+     padding: 10px;
+}
+
+button{
+    color: white;
+    background-color: #e98181 ;
+}
+
+#res{
+    text-align: center;
+    border:  thin dashed #4e0a0a;
+    background-color: #e98181;
+     border-radius: 20px;
+     margin: 20px;
+     padding: 10px;
+}
+
